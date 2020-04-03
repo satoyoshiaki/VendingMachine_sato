@@ -1,12 +1,12 @@
 # 開発体制
-leader  : 高澤 
+leader  : 高澤
 observer: 佐藤  
 driver  : 月野木 
 
 # 開発手順
 リポジトリのクローン(初回のみ)
 ```
-git clone https://github.com/yodev21/vending_machine_app.git
+git clone https://github.com/rtakasawa/teamA_vending_machine_app.git
 ```
 
 ## コミットメッセージのルール
