@@ -8,7 +8,7 @@ class VendingMachine
 
   def initialize
     @total = 0
-    @sale_amount = 0
+    @sale_amount = 0va
     @drink_table = {}
     5.times { store(Drink.cola) }
   end
