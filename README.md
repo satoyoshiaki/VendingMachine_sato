@@ -1,6 +1,13 @@
 http://devtesting.jp/tddbc/?TDDBC%E5%A4%A7%E9%98%AA3.0%2F%E8%AA%B2%E9%A1%8C
 課題
 
+sato_VendingMachine.rbの使い方
+
+
+
+
+
+
 ステップ０　お金の投入と払い戻し
 10円玉、50円玉、100円玉、500円玉、1000円札を１つずつ投入できる。
 投入は複数回できる。
