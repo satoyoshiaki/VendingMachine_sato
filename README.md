@@ -1,12 +1,50 @@
 http://devtesting.jp/tddbc/?TDDBC%E5%A4%A7%E9%98%AA3.0%2F%E8%AA%B2%E9%A1%8C
 課題
 
-sato_VendingMachine.rbの使い方
+*sato_VendingMachine.rbの使い方*
+
+1,インスタンスを作成
+2,特定のドリンクの値段と在庫の確認
+3,お金の初期値購入する場合は必ず必要
+4,お金の投入
+5,お金の投入
+6,飲み物の購入
+7,自販機の内部のお金表示
+８、特定のドリンクの値段と在庫の確認
+
+
+
+nodokawaita = VendingMachine.new
+nodokawaita.info("コーラ")
+nodokawaita.total_money
+nodokawaita.insert(100)
+nodokawaita.insert(50)
+nodokawaita.buy("コーラ")
+nodokawaita.bank_info
+nodokawaita.info("コーラ")
+
+
+
+*注意*
+とにかく無駄しかない
+リファクタリング必須
+同じ処理が多い
+複数購入不可能
+ドリンクの種類を増やすのが面倒
 
 
 
 
 
+
+
+
+
+
+
+
+
+_______________________________________________________________________________________________
 
 ステップ０　お金の投入と払い戻し
 10円玉、50円玉、100円玉、500円玉、1000円札を１つずつ投入できる。
